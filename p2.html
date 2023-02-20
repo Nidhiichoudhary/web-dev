@@ -1,0 +1,110 @@
+<html>
+	<head>
+        <style type="text/css">
+            *{
+                padding: 0;
+                margin-top: 0;
+                box-sizing: border-box;
+            }
+            body{
+                background-image: url(2.jpg);
+                background-size: cover;
+                background-position: center;
+                box-sizing: border-box;
+                font-family: sans-serif;
+            }
+            .menu-bar{
+                background-color: palevioletred;
+                text-align:center;
+            }
+            .menu-bar ul{
+                display: inline-flex;
+                list-style: none;
+                color: white;
+            }
+            .menu-bar ul li{
+                width: 120px;
+                margin: 15px;
+                padding: 15px;
+            }
+            .menu-bar ul li a{
+                text-decoration: none;
+                color: white;
+            }
+           
+            .menu-bar ul li:hover{
+                background-color:plum;
+                border-radius: 3px;
+            }
+            
+            .Sub-Menu-1{
+                display: none;
+            }
+            .menu-bar ul li:hover.Sub-Menu-1{
+                display:block;
+                position:absolute;
+                background-color:plum;
+                margin-top:15 px;
+                margin-left:15 px;
+            }
+            .Sub-Menu-1 ul{
+                display: block;
+                margin: 10px;
+            }
+
+            
+
+           
+            
+            
+
+            
+            
+            
+
+
+
+</style>
+		
+    </head>
+    <body> 
+        <title> Drop-down menu design- SUNIDHI CREATIONS</title>
+
+        <div class="menu-bar">
+        <ul>
+           
+            <li><a href="#"><i class="fa-light fa-house"></i>HOME</a></li>
+
+            
+            <li><a href="#">ABOUT US</a>
+                 <div class="Sub Menu-1">
+                    <ul>
+                        <li><a href="#">MISSION</a></li>
+                        <li><a href="#">VISSION</a></li>
+                        <li><a href="#">TEAM</a></li>
+                    </ul>
+                 </div>
+            </li>
+            <li><a href="#">SERVICES</a></li>
+            <li><a href="#">CLIENTS</a></li>
+            <li><a href="#">INVESTERS</a></li>
+            <li><a href="#">PRICING</a></li>
+            <li><a href="#">TRANING</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+        </div>
+
+
+        <header>
+
+
+            
+
+
+
+        </header>
+
+
+
+    </body>
+    </html>
